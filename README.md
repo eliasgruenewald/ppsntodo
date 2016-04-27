@@ -1,7 +1,6 @@
-# ppsntodo
-## Programmierpraktikum: Soziale Netzwerke
-## Fachgebiet CIT
-## Technische Universität Berlin
+# Programmierpraktikum: Soziale Netzwerke
+Fachgebiet CIT
+Technische Universität Berlin
 
 # The TTT-TheToDoTracker
 
