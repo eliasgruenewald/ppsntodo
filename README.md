@@ -1,6 +1,6 @@
 # Programmierpraktikum: Soziale Netzwerke
-Fachgebiet CIT
-Technische Universität Berlin
+Fachgebiet CIT<br>
+Technische Universität Berlin<br>
 
 # The TTT-TheToDoTracker
 
