@@ -9,6 +9,7 @@
 
     <!-- Bootstrap -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="import" href="b.html" >
 
     <!-- Unterstützung für Media Queries und HTML5-Elemente in IE8 über HTML5 shim und Respond.js -->
     <!-- ACHTUNG: Respond.js funktioniert nicht, wenn du die Seite über file:// aufrufst -->
@@ -17,12 +18,17 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body>
-    <h1>Hello, world!</h1>
 
-    <!-- jQuery (wird für Bootstrap JavaScript-Plugins benötigt) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Binde alle kompilierten Plugins zusammen ein (wie hier unten) oder such dir einzelne Dateien nach Bedarf aus -->
-    <script src="bootstrap/js/bootstrap.min.js"></script>
-  </body>
+<frameset cols="250,*">
+  <frame src="verweise2.htm" name="Navigation">
+  <frame src="startseite2.htm" name="Daten">
+  <noframes>
+    <h1>Willkommen!</h1>
+    <p>Dieses Projekt verwendet Frames. Bei Ihnen werden keine Frames angezeigt.</p>
+    <p>W&auml;hlen Sie einen der Verweise aus:<br>
+    <a href="startseite2.htm"><b>Startseite</b></a><br>
+    <!-- weitere Verweise usw. --></p>
+  </noframes>
+</frameset>
+
 </html>
